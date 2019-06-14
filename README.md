@@ -1,20 +1,21 @@
-# _{Beep-Boop!}_
+# _Beep-Boop!_
 
-#### _{Website that outputs Beep or Boop depending on numbers entered}, {6.14.2019}_
+#### _Website that outputs Beep or Boop depending on numbers entered}, 6.14.2019_
 
-#### By _**{Kirsten Cramer Putman}**_
+#### By _**Kirsten Cramer Putman**_
 
 ## Description
 
-_{The beep Boop Application is set forth for Epicodus students to create in order
+_The beep Boop Application is set forth for Epicodus students to create in order
   to gain insight into the level of knowledge and skill set obtained thus far in
-  the course.}_
+  the course._
 
 ## Setup/Installation Requirements
 
 * _Open browser of choice or simply click the link included_
 
 ##Specs
+
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
 | Program returns range of numbers from 0- user inputted number | 4 | 0,1,2,3,4|
@@ -30,25 +31,23 @@ _{The beep Boop Application is set forth for Epicodus students to create in orde
 | Program returns word set by numbers with any combination containing 2| 222 | Boop
 | Program returns word set by specific number 1 & 2| 12| Beep Boop|
 
-| b4 | i4 | o4 |
-| b4 | i4 | o4 |
-| b4 | i4 | o4 |
+
 
 
 ## Known Bugs
 
-_{Know bugs are contained within the scripts.js code. }_
+_Know bugs are contained within the scripts.js code._
 
 ## Support and contact details
 
-_{if you run into errors or have issues launching the site, please contact the administrator}_
+_if you run into errors or have issues launching the site, please contact the administrator_
 
 ## Technologies Used
 
-_{html, javascript, bootstrap, css and jquery}_
+_html, javascript, bootstrap, css and jquery_
 
 ### License
 
-*{software licensed by MIT}*
+*software licensed by MIT*
 
-Copyright (c) 2019 **_{Epicodus Code School and Kirsten Cramer Putman}_**
+Copyright (c) 2019 **_Epicodus Code School and Kirsten Cramer Putman_**
