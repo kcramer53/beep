@@ -6,7 +6,7 @@ var arr = [];
 for(var i = 0; i <= num; i++){
   console.log(num);
 var str = i.toString();
-
+}
 
 if(i = 0 && i % 3 === 0 ){
    arr.push("I'm sorry, Dave. I'm afraid I can't do that.");
@@ -25,7 +25,7 @@ if(i = 0 && i % 3 === 0 ){
 }
 return (arr);
 
-}
+});
 $(document).ready(function(){
   $("#formOne").on("submit",function(event){
 
@@ -35,4 +35,5 @@ $(document).ready(function(){
     var bop = beep(InPut);
     $("#outPut").text(bop);
   });
+});
 });

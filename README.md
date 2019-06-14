@@ -12,9 +12,10 @@ _The beep Boop Application is set forth for Epicodus students to create in order
 
 ## Setup/Installation Requirements
 
-* _Open browser of choice or simply click the link included_
+* _Open browser of choice or simply click the link below
+https://kcramer53.github.io/beep_
 
-##Specs
+## Specs
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
