@@ -1,10 +1,8 @@
 body {
-  font-family: 'Peralta', courier;
-  font-size: 36px;
+  font-family: courier;
+  margin-left: auto;
+  font-size: 30px;
   background-color: #90A4DF;
-  background-image: url(../img/retro-robot.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: 100% 100%;
   background-size: 48%;
 }
@@ -14,19 +12,21 @@ body {
   border: 8px solid black;
   box-shadow: 8px 8px;
   padding: 10px 30px;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   background-color: #DBC4CE;
 }
 
 
+
 button {
-  font-family: 'Peralta', courier;
-  letter-spacing: 2px;
+  font-family: courier;
+  font-weight: 15px;
+  letter-spacing: 5px;
 }
 
 button#rules {
-  font-family: sans-serif;
+  font-family: courier;
   border: 2px solid black;
   border-radius: 50%;
 }
