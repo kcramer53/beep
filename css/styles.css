@@ -19,13 +19,13 @@ body {
 
 
 
-button {
+* button {
   font-family: courier;
-  font-weight: 15px;
+  font-weight: 20px;
   letter-spacing: 5px;
 }
 
-button#rules {
+*button#rules {
   font-family: courier;
   border: 2px solid black;
   border-radius: 50%;
