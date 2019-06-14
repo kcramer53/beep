@@ -4,6 +4,7 @@ $(document).ready(function() {
 var beep = function(num){
 var arr = [];
 for(var i = 0; i <= num; i++){
+  console.log(num);
 var str = i.toString();
 
 

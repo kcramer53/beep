@@ -1,37 +1,54 @@
-# _{Application Name}_
+# _{Beep-Boop!}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{Website that outputs Beep or Boop depending on numbers entered}, {6.14.2019}_
 
-#### By _**{List of contributors}**_
+#### By _**{Kirsten Cramer Putman}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{The beep Boop Application is set forth for Epicodus students to create in order
+  to gain insight into the level of knowledge and skill set obtained thus far in
+  the course.}_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Open browser of choice or simply click the link included_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+##Specs
+| Behavior | Input | Output |
+| ------------- |:-------------:| -----:|
+| Program returns range of numbers from 0- user inputted number | 4 | 0,1,2,3,4|
+| Program returns sentence when user inputs specific number or numbers | 3 | Im sorry, Dave. Im afraid I cant do that. |
+| Program  returns sentence when user enters multiples of 3 | 15 | Im sorry, Dave. Im afraid I cant do that. |
+| Program returns word where number is 0| 0 | Beep |
+| Program returns word where number contains 0| 20 | Beep |
+| Program returns word set by specific number 1 | 1 | Beep |
+| Program returns word set by numbers containing number 1 | 11 | Beep Beep|
+| Program returns word set by numbers with any combination containing 1 | 111| Beep Beep Beep |
+| Program returns word set by specific number 2 | 2| Boop |
+| Program returns word set by numbers containing number 2| 22 | Boop|
+| Program returns word set by numbers with any combination containing 2| 222 | Boop
+| Program returns word set by specific number 1 & 2| 12| Beep Boop|
+
+| b4 | i4 | o4 |
+| b4 | i4 | o4 |
+| b4 | i4 | o4 |
+
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{Know bugs are contained within the scripts.js code. }_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_{if you run into errors or have issues launching the site, please contact the administrator}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{html, javascript, bootstrap, css and jquery}_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*{software licensed by MIT}*
 
-Copyright (c) 2019 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_{Epicodus Code School and Kirsten Cramer Putman}_**
