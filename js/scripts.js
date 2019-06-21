@@ -1,35 +1,37 @@
 //business logic//
-var beep = function(num){
-var boop = (num);
-var arr = [];
-for(var i = 0; i <= num; i++){
-  console.log(num);
+var arr = []
+var num = []
+
+function arrayMaker(numberEntry){
+for(var i = 0; i <= numberEntry; i++){
+arr.push(i);
 }
-  if (i.toString().includes("0")){
+}
+  if (i.toString().includes("1")){
   arr.push("Beep");
 }
-
-  else if (i.toString().includes("1")){
+  else if (i.toString().includes("2")){
   arr.push("Boop");
 }
-  else if (i % 3 === 0){
+  else if (i.toString().includes("3")){
    arr.push("I'm sorry, Dave. I'm afraid I can't do that.");
  }
-
-
-    else {
+  else {
       arr.push(' ' + i);
     }
-    return (arr);
+  return (arr);
 }
 
 
 //user interface logic//
 $(document).ready(function(){
-  $("form#formOne").on("submit",function(event){
+  $("#formOne").submit(function(event){
     event.preventDefault();
-    var InPut = $("#formOne").val();
-    var boop = beep(InPut);
-    $("#output").text(boop);
+    console.log("reachedthispoint");
+    var input = $("#number-input").val();
+    arrayMaker(input);
+    console.log(arr);
+    $("#output").text(arr);
   });
 });
+
